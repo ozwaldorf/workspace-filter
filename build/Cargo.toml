@@ -1,0 +1,11 @@
+[package]
+name = "workspace-filter-build"
+version.workspace = true
+edition.workspace = true
+readme = "../README.md"
+
+[dependencies]
+cargo_metadata = "0.21"
+
+[lib]
+path = "./lib.rs"

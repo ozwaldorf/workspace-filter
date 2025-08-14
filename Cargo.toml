@@ -1,0 +1,15 @@
+[package]
+name = "workspace-filter"
+version.workspace = true
+edition.workspace = true
+
+[lib]
+path = "./macro.rs"
+
+[workspace]
+members = ["build", "test"]
+resolver = "2"
+
+[workspace.package]
+version = "0.1.0"
+edition = "2024"

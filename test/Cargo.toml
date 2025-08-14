@@ -1,0 +1,14 @@
+[package]
+name = "test"
+version.workspace = true
+edition.workspace = true
+publish = false
+
+[lib]
+path = "./tests.rs"
+
+[dependencies]
+workspace-filter = { path = ".." }
+
+[build-dependencies]
+workspace-filter-build = { path = "../build" }
