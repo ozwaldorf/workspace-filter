@@ -2,6 +2,9 @@
 name = "workspace-filter"
 version.workspace = true
 edition.workspace = true
+description.workspace = true
+license.workspace = true
+repository.workspace = true
 
 [lib]
 path = "./macro.rs"
@@ -13,3 +16,6 @@ resolver = "2"
 [workspace.package]
 version = "0.1.0"
 edition = "2024"
+description = "Simple framework to compile env filters for all packages in a workspace"
+license = "MIT"
+repository = "https://github.com/ozwaldorf/workspace-filter"
